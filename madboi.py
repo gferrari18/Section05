@@ -1,4 +1,4 @@
-f = open("nice.txt", "r")
+f = open("madlb.txt", "r")
 
 story = ""
 
@@ -14,6 +14,6 @@ print(story)
 
 f.close()
 
-f = open("nice.txt", "w")
+f = open("madlb2.txt", "w")
 f.write(story)
 f.close

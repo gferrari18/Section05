@@ -13,6 +13,11 @@ for x in list:
     file.write(x + "\n")
 file.close()
 
+file = open("shoppinglist", "r")
+linumber = 1
+for line in file:
+    print(line.strip())
+    delete = input("Do you still need this item?: ")
 
 print("Nice, go to the store!")
 
